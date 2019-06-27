@@ -1,0 +1,26 @@
+{
+  "name": "@codeceptjs/s3aws-plugin",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab-rnd.tcsbank.ru/qa-tools/codeceptjs-tools.git"
+  },
+  "publishConfig": {
+    "registry": "https://nexus-new.tcsbank.ru/repository/npm-hosted/",
+    "access": "public"
+  },
+  "author": "Alexandr Vorobey <sashavorobey95@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.478.0",
+    "mime-types": "^2.1.24"
+  }
+}
